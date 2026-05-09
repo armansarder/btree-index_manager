@@ -21,7 +21,10 @@ b) I plan on creating node.py and implementing it. I don't look forward to it be
 a) continuing to implement node.py. I have noticed it is not as bad as I thought, though there has been some parts that were difficult 
 b) I will implement btree program this session and start coding the search and insert logic 
 
+5/8 – 9:55 pm 
+a) The implementation for the b-tree functionally works, but there could be additions to the project to enhance its safety through extra validation, but I'd like to leave it as is. It is best not to add too much because it opens the door to mistakes to be made.
 
+b) The next thing I must complete is a final cleanup and ensure the files don't have unnecessary calls or variables. An addition of a README file would complete the project. 
 
 
 
