@@ -21,4 +21,25 @@ def create_index_file(filename):
 
     print(f"Index file {filename} created successfully.")
 
+def read_header(filename):
+    if not os.path.exists(filename):
+        print(f"File {filename} does not exist.")
+        return None
+    
+    with open(filename, "rb") as f:
+
+        magic_number = f.read(8)
+
+        if magic_number != Magic_Number:
+            print("Invalid index file.")
+            return None
         
+        root_id = int.from_bytes(f.read(8), "big")
+        next_block_id = int.from_bytes(f.read(8), "big")
+
+    header = {
+        "root_id": root_id,
+        "next_block_id": next_block_id
+    }
+
+    return header

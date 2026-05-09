@@ -1,4 +1,5 @@
 import sys
+from index_file import create_index_file, read_header
 
 def main(): 
     if len(sys.argv) < 2:
@@ -11,7 +12,15 @@ def main():
     elif command == "insert":
         print("Executing Insert command")
     elif command == "search":
-        print("Executing Search command")
+
+        if len(sys.argv) != 4:
+            print("search <index file> <key>")
+            return
+
+        filename = sys.argv[2]
+        header = read_header(filename)
+        if header is not None:
+            print(header)
     elif command == "load":
         print("Executing Load command")
     elif command == "print":
