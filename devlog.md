@@ -13,3 +13,9 @@ a) I have so far created a simple output in the main project file for when an op
 
 b) I will now move on to continue making progress. I plan on adding functions to the index file so we can start manipulating files. 
 
+5/8 – 7:45 pm
+a) I have no thoughts. 
+b) I plan on creating node.py and implementing it. I don't look forward to it because I think it will be hard.
+
+
+

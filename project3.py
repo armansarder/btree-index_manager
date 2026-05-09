@@ -25,8 +25,6 @@ def main():
         print("Executing Load command")
     elif command == "print":
         print("Executing Print command")
-    elif command == "print":
-        print("Executing Print command")
     elif command == "extract":
         print("Executing Extract command")
 
