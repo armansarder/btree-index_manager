@@ -78,3 +78,22 @@ class Node:
             if child != 0:
                 return False
         return True
+
+    def is_full(self):
+        return self.num_keys == MAX_KEYS
+
+    def find_key_index(self, key):
+        index = 0
+
+        while index < self.num_keys and self.keys[index] < key:
+            index += 1
+
+        return index
+
+    def contains_key(self, key):
+        index = self.find_key_index(key)
+
+        if index < self.num_keys and self.keys[index] == key:
+            return True
+
+        return False

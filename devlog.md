@@ -17,5 +17,11 @@ b) I will now move on to continue making progress. I plan on adding functions to
 a) I have no thoughts. 
 b) I plan on creating node.py and implementing it. I don't look forward to it because I think it will be hard.
 
+5/8 – 8:30 pm 
+a) continuing to implement node.py. I have noticed it is not as bad as I thought, though there has been some parts that were difficult 
+b) I will implement btree program this session and start coding the search and insert logic 
+
+
+
 
 
